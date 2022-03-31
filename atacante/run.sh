@@ -9,5 +9,5 @@ docker run \
     --detach \
     -p8080:80 \
     --name="atacante" \
-    -v name:/data \
+    -v `pwd`/data:/data \
     atacante
